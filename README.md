@@ -1,4 +1,4 @@
-# HKJC_db-Logistc-Regression
+# HKJC_db-Logistic-Regression
 HKJC database Logistic Regression Forecast
 
 -Download the Latest ver. from the Release
@@ -11,34 +11,34 @@ File - para.txt
 
 1.targetCol - the column that represents the result of the particular horse in a single race
 
-2.drpoArr_rawData - Add or Delete the columns to be included in base raw data
+2.dropArr_rawData - Delete the columns not to be included in base raw data by placing the name
 
-3.dropArr_predictionData - Add or Delete the columns to be included in test data
+3.dropArr_predictionData - Delete the columns not to be included in test data by placing the name 
 
 4.module_run - 
 
-set 0 = run Logistic Regression only
+set to 0 = run Logistic Regression only
 
-set 1 = run prediction only(must have the previous model result first)
+set to 1 = run prediction only(must have the previous model result first i.e. logistic_model.sav)
 
-set 2 = run both option of 0 and 1
+set to 2 = run both Logistic Regression and Prediction
 
-5.testSize_sample - the ratio of training data set from the raw dataset, default is 0.25
+5.testSize_sample - the ratio of training dataset and testing dataset from the raw dataset, default is 0.25 of test sample size, 0.75 traning dataset
 
 6.randomState_sample - default is 0
 
 7.testAccuracy_sample? - default is 0
 
-8.setResult_limit - means the horse result in what level inculsive i.e set 1 = only wins, set 4 = below or equal to 4
+8.setResult_limit - forecast the result of the horse limit to what level i.e set to 2 = below or equal to 2, set to 4 = below or equal to 4
 
 
 Folder - predict_set base raw:
-put the raw dataset from HKJC db in csv format
+put the raw dataset from HKJC db in csv format with separator ("|")
 
 Folder - predict_set test:
-This is the dataset to generate the prediction in txt format with separator ("|")
+This is the dataset to be created for the prediction in txt format with separator ("|")
 
 Folder - predict_set result:
-It is the outcome of the Logistic Regression run in csv format
+It is the outcome of the Logistic Regression run by giving the result in csv format and the predicted percentage is given between 0 and 1
 
-Once the setting and the dataset is ready, click the logisticRegression_skl.exe to run the result
+*Once the setting and the dataset is ready, click the logisticRegression_skl.exe to run the result
