@@ -1,6 +1,8 @@
 # HKJC_db-Logistic-Regression
 HKJC database Logistic Regression Forecast
 
+This project aims at providing a tool for the ease of testing the features variable created that is statistically significant or not.By running the exe, the python interface will come out by showing the coefficient and the P-value of the particular variable.
+
 -Download the Latest ver. from the Release
 
 How to use?
