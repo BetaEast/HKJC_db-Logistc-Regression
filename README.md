@@ -16,8 +16,11 @@ File - para.txt
 3.dropArr_predictionData - Add or Delete the columns to be included in test data
 
 4.module_run - 
+
 set 0 = run Logistic Regression only
+
 set 1 = run prediction only(must have the previous model result first)
+
 set 2 = run both option of 0 and 1
 
 5.testSize_sample - the ratio of training data set from the raw dataset, default is 0.25
