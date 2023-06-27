@@ -23,7 +23,7 @@ set to 1 = run prediction only(must have the previous model result first i.e. lo
 
 set to 2 = run both Logistic Regression and Prediction
 
-5.testSize_sample - the ratio of training dataset and testing dataset from the raw dataset, default is 0.25 of test sample size, 0.75 traning dataset
+5.testSize_sample - the ratio of training dataset and testing dataset from the raw dataset, default is 0.25 of test sample size, 0.75 training dataset
 
 6.randomState_sample - default is 0
 
