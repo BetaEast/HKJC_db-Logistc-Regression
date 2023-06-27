@@ -41,3 +41,4 @@ This is the dataset to generate the prediction in txt format with separator ("|"
 Folder - predict_set result:
 It is the outcome of the Logistic Regression run in csv format
 
+Onece the setting and the dataset is ready, click the logisticRegression_skl.exe to run the result
