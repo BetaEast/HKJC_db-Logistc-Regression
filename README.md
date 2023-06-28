@@ -44,3 +44,9 @@ Folder - predict_set result:
 It is the outcome of the Logistic Regression run by giving the result in csv format and the predicted percentage is given between 0 and 1
 
 *Once the setting and the dataset is ready, click the logisticRegression_skl.exe to run the result
+
+<img width="569" alt="LR_Result" src="https://github.com/BetaEast/HKJC_db-Logistc-Regression/assets/75822228/b41c706f-2571-4c21-b2a2-ee5a74c55879">
+
+
+
+
